@@ -1,8 +1,4 @@
----
-layout: posts
-title: How to Install Hadoop and Spark on MacOS
-author: Yan Sun
----
+
 
 
 # How to install Hadoop and Spark on macOS
