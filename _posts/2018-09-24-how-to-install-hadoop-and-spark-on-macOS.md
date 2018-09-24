@@ -1,4 +1,7 @@
-
+---
+layout: "post"
+date: 2018-09-25
+---
 
 
 # How to install Hadoop and Spark on macOS
