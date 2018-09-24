@@ -4,7 +4,7 @@ description:        "PhD student @ King's College London"
 url:                "http://ysun94.github.io"
 author:             "ysun94"
 email:              "yan.sun@kcl.ac.uk"
-gravatar_hash:      "de5c7e08016aeaa80d78eacbc33d60cc"
+gravatar_hash:      "1fb240082fd27943ca9907574ba4b95f"
 twitter:            #"jhondoe"
 email:              "yan.sun@kcl.ac.uk"
 github:             "ysun94"
@@ -20,7 +20,7 @@ paginate:           5
 paginate_path:      "/page:num/"
 
 baseurl:            ""
-permalink:          :year/:month/:day/:title/
+permalink:          :year/:month/:de5c7e08016aeaa80d78eacbc33d60ccday/:title/
 
 markdown:           kramdown
 
