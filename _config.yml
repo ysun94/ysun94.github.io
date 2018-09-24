@@ -14,7 +14,7 @@ facebook:           # "jhondoe"
 
 disqus_shortname:   "ysun94"
 
-background:         "ysun94.github.io/assets/images/IMG_0105.jpg"
+background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
 paginate:           5
 paginate_path:      "/page:num/"
