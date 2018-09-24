@@ -1,7 +1,7 @@
 name:               "Yan Sun"
 description:        "PhD student at King's College London"
 
-url:                ""
+url:                "ysun94.github.io"
 author:             "Yan Sun"
 email:              "yan.sun@kcl.ac.uk"
 gravatar_hash:      "1fb240082fd27943ca9907574ba4b95f"
@@ -14,7 +14,7 @@ facebook:           # "jhondoe"
 
 disqus_shortname:   "ysun94"
 
-background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+background:         "ysun94.github.io/assets/images/IMG_0104.jpg"
 
 paginate:           5
 paginate_path:      "/page:num/"
