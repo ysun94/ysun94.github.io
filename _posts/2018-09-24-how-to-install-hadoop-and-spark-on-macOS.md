@@ -23,6 +23,9 @@ If the HomeBrew was not installed, run
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+## Step 2: Install Java
+
+
 ## Step 2: Install **Hadoop**
 It is easy to install Hadoop with HomeBrew by pasting the following command in the terminal prompt:
 
@@ -33,6 +36,7 @@ $ brew install hadoop
 ## Step 3: Configure Hadoop
 Hadoop is installed in the directory ``/usr/local/Cellar/hadoop``. Now, change your current directory into ``/usr/local/Cellar/hadoop/3.1.1/libexec/etc/hadoop/``, where ``3.1.1`` is the version of the Hadoop installed.
 
+### 1. Configure ``hadoop-env.sh``
 Then open ``hadoop-env.sh``.
 
 If you did not installed any editor on your computer, just open it by the built-in TextEditor. Try
@@ -44,4 +48,21 @@ I prefer using VS code, so I just simply run
 
 ```bash
 $ code hadoop-env.sh
+```
+
+change
+
+```bash
+export HADOOP_OPTS="$HADOOP_OPTS -Djava.net.preferIPv4Stack=true"
+```
+to
+
+```bash
+export HADOOP_OPTS="$HADOOP_OPTS -Djava.net.preferIPv4Stack=true -Djava.security.krb5.realm= -Djava.security.krb5.kdc="
+```
+
+Also, add
+
+```bash
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home"
 ```
