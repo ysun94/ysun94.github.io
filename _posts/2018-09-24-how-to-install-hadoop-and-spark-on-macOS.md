@@ -11,20 +11,23 @@ I am interested high-frequency trading involving big data processing based on th
 You can also refer to the [official website](https://brew.sh) for the installation.
 
 If you are not sure whether the HomeBrew has been installed, please check by running following command:
+
 ```bash
-brew -v
+$ brew -v
 ```
 which will show the version of the HomeBrew installed.
 
 If the HomeBrew was not installed, run
+
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ## Step 2: Install **Hadoop**
 It is easy to install Hadoop with HomeBrew by pasting the following command in the terminal prompt:
+
 ```bash
-brew install hadoop
+$ brew install hadoop
 ```
 
 ## Step 3: Configure Hadoop
@@ -33,11 +36,12 @@ Hadoop is installed in the directory ``/usr/local/Cellar/hadoop``. Now, change y
 Then open ``hadoop-env.sh``.
 
 If you did not installed any editor on your computer, just open it by the built-in TextEditor. Try
+
 ```bash
-open -a TextEditor hadoop-env.sh
+$ open -a TextEditor hadoop-env.sh
 ```
 I prefer using VS code, so I just simply run
 
 ```bash
-code hadoop-env.sh
+$ code hadoop-env.sh
 ```
