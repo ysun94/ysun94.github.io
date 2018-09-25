@@ -50,7 +50,7 @@ a {
     transition: all 0.3s;
     &:hover,
     &:focus {
-        color: #446CB3;
+        color: #5dbdf4;
         text-decoration: dotted;
     }
 }
@@ -275,7 +275,7 @@ tbody tr:nth-child(odd) th {
 
 .top {
     position: fixed;
-    background: #EC407A;
+    background: #5dbdf4;
     height: 3px;
     width: 100%;
     top: 0;
@@ -293,13 +293,13 @@ tbody tr:nth-child(odd) th {
         padding-left: 9px;
         padding-right: 9px;
         text-align: center;
-        border: 2px #EC407A solid;
-        color: #EC407A;
+        border: 2px #5dbdf4 solid;
+        color: #5dbdf4;
         &:hover,
         &:focus {
             color: #fff;
             border-color: #fff;
-            background: #EC407A;
+            background: #5dbdf4;
         }
     }
 }
@@ -406,10 +406,10 @@ tbody tr:nth-child(odd) th {
         }
         span {
             font-weight: 800;
-            color: #EC407A;
+            color: #5dbdf4;
             &:hover,
             &:focus {
-                color: #EC407A;
+                color: #5dbdf4;
                 text-decoration: none;
             }
         }
