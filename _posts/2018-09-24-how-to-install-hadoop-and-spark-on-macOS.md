@@ -24,16 +24,23 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 ```
 
 ## Step 2: Install Java
+Apache Hadoop is an open source platform built on Linux operating system and Java programming language. Thus, before installing Hadoop, we need to install Java environment.
+
+Go to the [official website](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and install **Java SE Development Kit**. For macOS users, select Mac OS X x64 version to install (don't forget to accept licence agreement).
+
+![Java Installation](http://ysun94.github.io/assets/images/20180925HadoopJavaInstall.png)
+
+Then install it based on the instruction.
 
 
-## Step 2: Install **Hadoop**
+## Step 3: Install **Hadoop**
 It is easy to install Hadoop with HomeBrew by pasting the following command in the terminal prompt:
 
 ```bash
 $ brew install hadoop
 ```
 
-## Step 3: Configure Hadoop
+## Step 4: Configure Hadoop
 Hadoop is installed in the directory ``/usr/local/Cellar/hadoop``. Now, change your current directory into ``/usr/local/Cellar/hadoop/3.1.1/libexec/etc/hadoop/``, where ``3.1.1`` is the version of the Hadoop installed.
 
 ### 1. Configure ``hadoop-env.sh``
