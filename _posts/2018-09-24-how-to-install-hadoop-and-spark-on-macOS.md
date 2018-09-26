@@ -254,8 +254,9 @@ build_error: 0 (30d)
 
 ```bash
 $ jupyter-notebook
-Initialize pyspark
 ```
+
+Initialize pyspark:
 
 ```python
 In [1]: import os
